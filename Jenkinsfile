@@ -114,7 +114,7 @@ pipeline {
             }
         }
         
-        stage('Deploy to Elastic Beanstalk server') {
+        stage('Deploy to Elastic Beanstalk servers') {
             steps {
                 script {
                     // Use the AWS Elastic Beanstalk Command Line Interface (EB CLI)
